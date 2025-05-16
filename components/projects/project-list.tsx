@@ -4,7 +4,7 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { Project } from '@/lib/types';
+import { Project } from '@/lib/types/types';
 import { stageColorMap } from '@/lib/constants';
 import { ArrowRightIcon, BookmarkIcon, XCircleIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';

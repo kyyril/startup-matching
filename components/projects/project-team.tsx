@@ -5,7 +5,7 @@ import {
   LinkedinIcon, 
   TwitterIcon 
 } from 'lucide-react';
-import { TeamMember } from '@/lib/types';
+import { TeamMember } from '@/lib/types/types';
 
 interface ProjectTeamProps {
   team: TeamMember[];

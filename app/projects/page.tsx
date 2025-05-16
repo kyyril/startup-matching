@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import { PlusIcon } from 'lucide-react';
 import Link from 'next/link';
 import { mockProjects } from '@/lib/mock-data';
-import { FilterType } from '@/lib/types';
+import { FilterType } from '@/lib/types/types';
 
 export default function ProjectsPage() {
   const [searchQuery, setSearchQuery] = useState('');

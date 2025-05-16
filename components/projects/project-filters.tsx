@@ -9,7 +9,7 @@ import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { FilterIcon, RefreshCcwIcon } from 'lucide-react';
 import { projectCategories, projectStages, projectLocations } from '@/lib/constants';
-import { FilterType } from '@/lib/types';
+import { FilterType } from '@/lib/types/types';
 
 interface ProjectFiltersProps {
   filters: FilterType;

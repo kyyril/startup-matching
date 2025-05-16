@@ -8,7 +8,7 @@ import { Progress } from '@/components/ui/progress';
 import { ArrowRightIcon, BookmarkIcon, CheckCircleIcon, ClockIcon, HeartIcon, MessageSquareIcon as MessageSquare2Icon, PencilIcon, StarIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { stageColorMap } from '@/lib/constants';
-import { Project } from '@/lib/types';
+import { Project } from '@/lib/types/types';
 
 interface DashboardProjectCardProps {
   project: Project;

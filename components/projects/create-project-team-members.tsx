@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { TeamMember } from '@/lib/types';
+import { TeamMember } from '@/lib/types/types';
 
 export function CreateProjectTeamMembers() {
   const [teamMembers, setTeamMembers] = useState<TeamMember[]>([
